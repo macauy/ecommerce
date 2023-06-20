@@ -8,7 +8,6 @@ import Menu from "@mui/material/Menu";
 import MenuIcon from "@mui/icons-material/Menu";
 import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
-import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
 import AdbIcon from "@mui/icons-material/Adb";
 
@@ -17,7 +16,7 @@ import CartWidget from "../../common/cartWidget/CartWidget";
 // Lista de paginas a mostrar en el menu
 const pages = ["Productos", "Nosotros", "Contacto"];
 
-function ResponsiveAppBar() {
+function Navbar() {
 	const [anchorElNav, setAnchorElNav] = React.useState(null);
 
 	const handleOpenNavMenu = (event) => {
@@ -127,13 +126,11 @@ function ResponsiveAppBar() {
 
 					{/* Carrito */}
 					<Box sx={{ flexGrow: 0 }}>
-						<Tooltip title="Ver Carrito">
-							<CartWidget></CartWidget>
-						</Tooltip>
+						<CartWidget></CartWidget>
 					</Box>
 				</Toolbar>
 			</Container>
 		</AppBar>
 	);
 }
-export default ResponsiveAppBar;
+export default Navbar;
