@@ -1,0 +1,32 @@
+.product-card {
+	margin: 30px;
+	max-width: 300px;
+	min-width: 280px;
+	min-height: 500px;
+	/* text-align: center; */
+}
+
+.product-card img {
+	width: 100%;
+}
+
+.button-container {
+	display: flex;
+	justify-content: center;
+}
+
+.product-card-button {
+	width: 145px;
+	height: 40px;
+	background-color: #d87d4a;
+	color: white;
+	border: none;
+	margin: 0 auto 25px;
+}
+
+.product-card-button:hover {
+	background-color: #fbaf85;
+}
+.product-card a {
+	text-decoration: none;
+}

@@ -1,0 +1,24 @@
+.logo {
+	color: black;
+	font-weight: bold;
+	display: flex;
+	align-items: center;
+}
+
+header {
+	font-family: "Manrope", sans-serif;
+}
+
+header a,
+.header-menu {
+	text-decoration: none;
+	color: #101010;
+}
+
+.header-menu {
+	padding: 10px;
+}
+
+.cart-icon {
+	max-width: 30px;
+}

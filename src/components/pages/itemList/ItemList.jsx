@@ -1,10 +1,13 @@
-import { Box } from "@mui/material";
+import ProductCard from "../../common/productCard/ProductCard";
+import "./ItemList.css";
 
-const ItemList = ({ saludo }) => {
+const ItemList = ({ items }) => {
 	return (
-		<Box sx={{ display: "flex", justifyContent: "center", marginTop: "70px" }}>
-			<h2>{saludo}</h2>
-		</Box>
+		<section className="item-list-container">
+			{items.map((item) => (
+				<ProductCard item={item} isItemList={true} key={item.id} />
+			))}
+		</section>
 	);
 };
 
