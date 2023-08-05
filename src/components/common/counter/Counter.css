@@ -1,7 +1,6 @@
 .product-actions {
 	display: flex;
 	justify-content: space-evenly;
-	align-items: center;
 }
 
 .product-counter {
@@ -39,6 +38,12 @@
 	background-color: #fbaf85;
 }
 
-/* .product-actions a {
-	text-decoration: none;
-} */
+.product-available {
+	margin-top: 10px;
+	font-weight: lighter;
+	opacity: 70%;
+}
+
+.product-error-msg {
+	color: #d87d4a;
+}

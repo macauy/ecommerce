@@ -1,27 +1,44 @@
 /* eslint-disable no-unused-vars */
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { products } from "../../../ProductsMock";
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import ItemDetail from "./ItemDetail";
+import { db } from "../../../firebaseconfig";
+import { CartContext } from "../../../context/CartContext";
+import { collection, getDoc, doc } from "firebase/firestore";
 
 const ItemDetailContainer = () => {
 	const [producto, setProducto] = useState({});
 	let { id } = useParams();
+	const { addToCart, checkStock } = useContext(CartContext);
+	const [errorMsg, setErrorMsg] = useState("");
+	const navigate = useNavigate();
 
 	useEffect(() => {
-		let productoSeleccionado = products.find((item) => item.id === +id);
-
-		const tarea = new Promise((resolve, reject) => {
-			resolve(productoSeleccionado);
+		const refProduct = doc(db, "products", id);
+		getDoc(refProduct).then((res) => {
+			setProducto({ ...res.data(), id });
 		});
-		tarea.then((res) => setProducto(res));
 	}, [id]);
 
 	const onAdd = (cant) => {
-		// Aca hay que hacer la lógica de agregar al carrito
-		console.log("Agregando al carrito ", cant);
+		console.log(producto.id, cant);
+		const { error, msg } = checkStock(producto.id, cant);
+		if (error) {
+			setErrorMsg(msg);
+		} else {
+			setErrorMsg("Product added to cart");
+			addToCart({ ...producto, quantity: cant });
+		}
 	};
-	return <ItemDetail producto={producto} />;
+	return (
+		<ItemDetail
+			producto={producto}
+			onAdd={onAdd}
+			navigate={navigate}
+			msg={errorMsg}
+		/>
+	);
 };
 
 export default ItemDetailContainer;

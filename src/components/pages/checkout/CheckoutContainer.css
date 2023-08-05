@@ -1,0 +1,53 @@
+body {
+	font-family: Manrope, sans-serif;
+}
+
+.checkout {
+	width: 100%;
+	background-color: #f1f1f1;
+	margin-top: 6px;
+}
+
+.checkout-box {
+	width: 90%;
+	margin: 70px auto;
+}
+
+.checkout-container {
+	display: flex;
+	justify-content: space-evenly;
+	/* align-items: center; */
+}
+
+.checkout-container-item {
+	background-color: white;
+	border-radius: 10px;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.checkout-container h4 {
+	margin-bottom: 20px;
+}
+
+.checkout-subtitle {
+	margin-top: 50px;
+	margin-bottom: 20px;
+	color: #d87d4a;
+}
+
+.checkout-textfield {
+	width: 100%;
+}
+
+.checkout-confirm-box {
+	text-align: center;
+}
+
+.checkout-confirm-box > * {
+	margin-bottom: 20px;
+}
+
+.checkout-message {
+	opacity: 50%;
+}

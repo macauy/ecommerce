@@ -8,7 +8,7 @@ export const products = [
 			"https://res.cloudinary.com/dkyug9gb1/image/upload/v1689183641/audiophile/product-yx1-earphones/image-product_cs8tew.jpg",
 		category: "earphones",
 		new: true,
-		price: 599,
+		price: 600,
 		stock: 4,
 		description:
 			"Tailor your listening experience with bespoke dynamic drivers from the new YX1 Wireless Earphones. Enjoy incredible high-fidelity sound even in noisy environments with its active noise cancellation feature.",
@@ -23,7 +23,7 @@ export const products = [
 			"https://res.cloudinary.com/dkyug9gb1/image/upload/v1689183548/audiophile/product-xx59-headphones/image-product_fdpqet.jpg",
 		category: "headphones",
 		new: false,
-		price: 899,
+		price: 900,
 		stock: 5,
 		description:
 			"Enjoy your audio almost anywhere and customize it to your specific tastes with the XX59 headphones. The stylish yet durable versatile wireless headset is a brilliant companion at home or on the move.",
@@ -38,7 +38,7 @@ export const products = [
 			"https://res.cloudinary.com/dkyug9gb1/image/upload/v1689183567/audiophile/product-xx99-mark-one-headphones/image-product_la8jpf.jpg",
 		category: "headphones",
 		new: false,
-		price: 1750,
+		price: 950,
 		stock: 5,
 		description:
 			"As the gold standard for headphones, the classic XX99 Mark I offers detailed and accurate audio reproduction for audiophiles, mixing engineers, and music aficionados alike in studios and on the go.",
@@ -53,7 +53,7 @@ export const products = [
 			"https://res.cloudinary.com/dkyug9gb1/image/upload/v1689183582/audiophile/product-xx99-mark-two-headphones/image-product_k7hycy.jpg",
 		category: "headphones",
 		new: true,
-		price: 2999,
+		price: 1000,
 		stock: 4,
 		description:
 			"The new XX99 Mark II headphones is the pinnacle of pristine audio. It redefines your premium headphone experience by reproducing the balanced depth and precision of studio-quality sound.",
@@ -68,7 +68,7 @@ export const products = [
 			"https://res.cloudinary.com/dkyug9gb1/image/upload/v1689183658/audiophile/product-zx7-speaker/image-product_rzcstt.jpg",
 		category: "speakers",
 		new: false,
-		price: 3500,
+		price: 1500,
 		stock: 3,
 		description:
 			"Stream high quality sound wirelessly with minimal to no loss. The ZX7 speaker uses high-end audiophile components that represents the top of the line powered speakers for home or studio use.",
@@ -83,7 +83,7 @@ export const products = [
 			"https://res.cloudinary.com/dkyug9gb1/image/upload/v1689183673/audiophile/product-zx9-speaker/image-product_kpvory.jpg",
 		category: "speakers",
 		new: true,
-		price: 4500,
+		price: 2000,
 		stock: 1,
 		description:
 			"Upgrade your sound system with the all new ZX9 active speaker. It’s a bookshelf speaker system that offers truly wireless connectivity -- creating new possibilities for more pleasing and practical audio setups.",

@@ -16,7 +16,7 @@ import "./Navbar.css";
 
 // Lista de paginas a mostrar en el menu
 const pages = [
-	{ name: "All", link: "/" },
+	{ name: "Home", link: "/" },
 	{ name: "Headphones", link: "/category/headphones" },
 	{ name: "Speakers", link: "/category/speakers" },
 	{ name: "Earphones", link: "/category/earphones" },

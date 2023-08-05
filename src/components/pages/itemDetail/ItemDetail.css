@@ -9,7 +9,19 @@
 	font-family: Manrope, sans-serif;
 }
 
-.item-detail-card img {
+.item-detail-back {
+	position: relative;
+	top: -20px;
+	left: 10px;
+	cursor: pointer;
+	color: rgb(0, 0, 0, 50%);
+}
+
+.item-detail-back:hover {
+	color: #d87d4a;
+}
+
+.item-detail-card-img {
 	width: 80%;
 	max-width: 400px;
 	min-width: 280px;
