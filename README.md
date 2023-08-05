@@ -1,25 +1,21 @@
 # SOUND STORE e-commerce
 
-### H3
+### Ecommerce de una tienda de sonido realizado con React
 
-### H4
-
-## Creado utilizando
+## Herramientas
 
 - React JS
 - Material UI
 
-### para clonar el proyecto:
+### Para clonar el proyecto:
 
 ```
-git clone algo.com
+git clone https://github.com/macauy/ecommerce.git
 ```
-
-### imagenes
 
 ![](/public/vite.svg)
 
-### enlaces
+### Link
 
 [link-a-app](www.google.com)
 
