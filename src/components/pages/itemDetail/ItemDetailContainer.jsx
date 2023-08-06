@@ -3,7 +3,7 @@ import { useContext, useEffect, useState } from "react";
 import { products } from "../../../ProductsMock";
 import { useNavigate, useParams } from "react-router-dom";
 import ItemDetail from "./ItemDetail";
-import { db } from "../../../firebaseconfig";
+import { db } from "../../../firebaseConfig";
 import { CartContext } from "../../../context/CartContext";
 import { collection, getDoc, doc } from "firebase/firestore";
 

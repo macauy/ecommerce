@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { db } from "../../../firebaseconfig";
+import { db } from "../../../firebaseConfig";
 import { products } from "../../../ProductsMock";
 import { addDoc, collection } from "firebase/firestore";
 

@@ -7,7 +7,7 @@ import {
 } from "firebase/firestore";
 import { useContext, useState } from "react";
 import { CartContext } from "../../../context/CartContext";
-import { db } from "../../../firebaseconfig";
+import { db } from "../../../firebaseConfig";
 import { Link } from "react-router-dom";
 
 import { Box, Grid, TextField } from "@mui/material";
