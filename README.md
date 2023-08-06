@@ -15,7 +15,7 @@ git clone https://github.com/macauy/ecommerce.git
 
 ### Preview
 
-![](/public/preview.png)
+![](/public/Preview.png)
 
 ### Link
 
