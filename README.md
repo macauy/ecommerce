@@ -16,7 +16,3 @@ git clone https://github.com/macauy/ecommerce.git
 ### Preview
 
 ![](/public/Preview.png)
-
-### Link
-
-[link a ecommerce](www.google.com)
