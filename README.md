@@ -13,12 +13,10 @@
 git clone https://github.com/macauy/ecommerce.git
 ```
 
-![](/public/vite.svg)
+### Preview
+
+![](/public/preview.png)
 
 ### Link
 
-[link-a-app](www.google.com)
-
-### para probar:
-
-https://pandao.github.io/editor.md/en.html
+[link a ecommerce](www.google.com)

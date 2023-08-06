@@ -22,7 +22,6 @@ const ItemDetailContainer = () => {
 	}, [id]);
 
 	const onAdd = (cant) => {
-		console.log(producto.id, cant);
 		const { error, msg } = checkStock(producto.id, cant);
 		if (error) {
 			setErrorMsg(msg);
