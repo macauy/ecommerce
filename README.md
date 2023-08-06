@@ -19,4 +19,4 @@ git clone https://github.com/macauy/ecommerce.git
 
 ### Link
 
-[link a ecommerce](https://vercel.com/macauy/ecommerce-nldd)
+[link a ecommerce](https://ecommerce-nldd.vercel.app/)
